@@ -317,3 +317,262 @@ footer {
     color: #ffffff;
 }
 
+
+
+
+navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+  }
+  
+  .nav-link {  color: #333;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .btn {
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .btn-outline-dark {
+    background-color: transparent;
+  }
+  
+  .btn-dark {
+    background-color: #1a1a1a;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Custom CSS */
+.services-section {
+    background-color: #2A3038;
+    position: relative;
+}
+
+.text-warning {
+    color: #D4AF37 !important;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+/* Custom CSS */
+.categories-section {
+    background-color: #fff;
+}
+
+.text-gold {
+    color: #D4AF37;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    border: 1px solid #D4AF37;
+    border-radius: 25px;
+    padding: 8px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold {
+    background-color: transparent;
+    color: #D4AF37;
+    border: 1px solid #D4AF37;
+    border-radius: 25px;
+    padding: 8px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+
+.service-card {
+    background-color: #2A3038;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.service-card .card-body {
+    padding: 1.5rem;
+}
+
+.btn-dark-outline {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-dark-outline:hover {
+    background-color: white;
+    color: #2A3038;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+
+
+
+
+
+
+
+
+/* Custom CSS */
+.newsletter-section {
+    background-color: #2A3038;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-wrapper {
+    background-color: #1E2329;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.display-4 {
+    color: white;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Form Styling */
+.subscription-form .input-group {
+    background: transparent;
+    border: 1px solid #D4AF37;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.subscription-form .form-control {
+    border: none;
+    background: transparent;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+.subscription-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subscription-form .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+    color: white;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #c49f2f;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .newsletter-content {
+        padding-top: 2rem;
+    }
+    
+    .display-4 {
+        font-size: 2.3rem;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+#service-sec-one{
+    padding-bottom: 191px;
+    padding-top: 118px;
+    padding-left: 396px;
+    padding-right: 396px;
+    background-image: url('/images/service-sec-1.jpeg');
+
+}
+
+#service-sec-one-btn{
+    color: #C4A962;
+}
