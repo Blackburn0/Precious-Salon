@@ -15,14 +15,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    
-
-
+    <style>
+        .hero{
+            background-image: url("/images/Section1.png");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+    </style>
 </head>
 <body>
+
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg" id="nav">
+    <!-- <nav class="navbar navbar-expand-lg" id="nav">
         <a class="navbar pr-3rem" id="logo" href="#" style="font-size: 35px; text-decoration: none; font-family: Port Lligat Slab;">
             <img src="images/Vector.png" alt="vector-image" style="padding-left: 0px;">
             STYLICLE
@@ -30,21 +34,21 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="pl-5" >
+            <div class="pl-5" > -->
                         <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
 
-                <ul class="navbar-nav mr-auto">
+                <!-- <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" id="nav-link" href="#">Home <span class="sr-only"></span></a>
+                      <a class="nav-link" id="nav-link" href="/index.html">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active" >
-                        <a class="nav-link" id="nav-link" href="#">About Us <span class="sr-only"></span></a>
+                        <a class="nav-link" id="nav-link" href="/about">About Us <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" id="nav-link" href="/services.html">Services <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" id="nav-link" href="#">Contact Us <span class="sr-only"></span></a>
+                        <a class="nav-link" id="nav-link" href="/contact.html">Contact Us <span class="sr-only"></span></a>
                     </li>
                     
                     <li class="nav-item active dropdown">
@@ -60,24 +64,86 @@
                       </li>
                   </ul>
             </div>
-          <div class="pl-3">
+          <div class="pl-3"> -->
             <!-- <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Login</button> -->
-            <button type="button" class="btn btn-outline-dark">Login</button>
+            <!-- <button type="button" class="btn btn-outline-dark">Login</button>
           </div>
           <div class="pl-3">
             <button class="btn btn-dark my-2 my-sm-0 " type="submit">Sign Up</button>
           </div>
         </div>
-    </nav>
+    </nav> -->
     <!-- Navbar End -->
 
+
+
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand" href="#" style="font-size: 35px; text-decoration: none; font-family: Port Lligat Slab;"> 
+            
+            <img src="images/Vector.png" alt="vector-image" style="padding-left: 0px;">
+            
+            STYLICLE</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="/index.html">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="/about">About Us <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="/services.html">Services <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="/contact.html">Contact Us <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" id="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <div class="p-3">
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Login</button> -->
+                <button type="button" class="btn btn-outline-dark">Login</button>
+              </div>
+              <div class="pl-3">
+                <button class="btn btn-dark my-2 my-sm-0 " type="submit">Sign Up</button>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
     <!-- Section 1 start -->
-    <div class="container-fluid p-5" id="section-one">
-        <div class="container ">
-            <div class="row">
-              <div class="col text-left" id="section-one-left">
+    <div class="container-fluid p-5 hero">
+              <div class="text-left" id="section-one-left">
                 <h6> <img src="images/header-logo.png" alt="header-logo"> HAIR SALON, MASSEUSE, BEAUTY SALON</h6>
-                <h1 >
+                <h1>
                     A Touch Of Class Hair Salon
                 </h1>
                 <p>
@@ -86,17 +152,8 @@
                 <div class="">
                     <button class="btn btn-lg text-white btn-outline-light bg-transparent rounded-pill">View Details </button>
                     <button class="btn btn-secondary btn-lg text-white btn-outline-light bg-transparent rounded-pill"> Contact Us </button>  
-
                 </div>
-              </div>
-              
-              <div class="col" id="section-one-right">
-                <!-- <img src="images/Rectangle 3.png" alt="hero-image"> -->
-              </div>
-              
-            </div>
-          </div>
-        
+            </div>         
     </div>
     <!-- Section 1 end -->
 
@@ -128,42 +185,45 @@
     <!-- Section 2 end -->
 
     <!-- Section 3 start -->
-    <div class="container-fluid p-5" style="background-color: rgba(42, 52, 57, 1);">
-        <div class="text-center p-5">
-            <h4 class="gold-text playball-regular" style="font-size: 15px;">ABOUT US</h4>
-            <h2 style="color: rgba(255, 255, 255, 1); font-size: 45px;">Welcome To Stylicle</h2>
-            <div class="text-center">
-                <p style="font-size: 13px; color: rgba(228, 227, 223, 1);">
-                    Where beauty meets expertise in every strand and style. 
-                    We're delighted to provide you with personalized care that leaves you looking and feeling your best!
-                </p>
+    <section>
+        <div class="container-fluid p-5" style="background-color: rgba(42, 52, 57, 1);">
+            <div class="text-center p-5">
+                <h4 class="gold-text playball-regular" style="font-size: 15px;">ABOUT US</h4>
+                <h2 style="color: rgba(255, 255, 255, 1); font-size: 45px;     font-family: 'Playfair Display';">Welcome To Stylicle</h2>
+                <div class="text-center">
+                    <p style="font-size: 13px; color: rgba(228, 227, 223, 1);">
+                        Where beauty meets expertise in every strand and style. 
+                        We're delighted to provide you with personalized care that leaves you looking and feeling your best!
+                    </p>
+                </div>
+            </div>
+    
+            <div class="container text-center text-white">
+                <div class="row align-items-center">
+                <div class="col">
+                    <img src="images/grid-image-1.png" alt="" style="width: 350px;">
+                </div>
+    
+                <div class="col">
+                    <div class="col-6 col-sm-3 pb-4">
+                        <img src="images/grid-image-2.png" alt="" style="width: 350px;">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="images/grid-image-4.png" alt="" style="width: 350px;">
+                    </div>                
+                </div>
+    
+                <div class="col">
+                    <div class="col-6 col-sm-3 pb-4">
+                        <img src="images/grid-image-3.png" alt="" style="width: 350px;">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="images/grid-image-5.png" alt="" style="width: 350px;">
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Force next columns to break to new line at md breakpoint and up -->
-                <div class="w-100 d-none d-md-block"> <img src="images/grid-image-1.png" alt=""> </div>
-    
-                <div class="col-6 col-sm-4">
-                    <img src="images/grid-image-2.png" alt="">
-                </div>
-                <div class="col-6 col-sm-4">
-                    <img src="images/grid-image-3.png" alt="">
-                </div>
-              
-                
-              
-                <div class="col-6 col-sm-4">
-                    <img src="images/grid-image-4.png" alt="">
-                </div>
-                <div class="col-6 col-sm-4">
-                    <img src="images/grid-image-5.png" alt="">
-                </div>
-              </div>
-        </div>
-        
-    </div>
+    </section>
     <!-- Section 3 end -->
 
     <!-- Section 4 start -->
@@ -172,7 +232,7 @@
         <div class="container" id="section-four-background">
             <!-- Header -->
             <div class="text-center mb-5">
-                <h6 class="text-warning">OUR SERVICES</h6>
+                <h6 class="text-warning gold-text playball-regular">OUR SERVICES</h6>
                 <h1 class="display-4">Recommended</h1>
                 <p class="lead">
                     Explore a range of expert styling services tailored to your unique needs. From cuts to color, we're here to bring your vision to life with precision and care.
@@ -199,10 +259,13 @@
                                 <h5 class="card-title text-warning">Make Up</h5>
                                 <p class="card-text">Plot 120, Kubwa Express way</p>
                                 <hr>
-                                <a href="#" class="btn btn-outline-light rounded-pill">
-                                    <i class="fas fa-arrow-right ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+                                <a href="#" class="text-decoration-none text-white">
+                                    <button class="btn btn-sm btn-outline-light rounded-pill">
+                                        <i class="fas fa-arrow-right fa-sm ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+
+                                    </button>
+                                    Explore Further
                                 </a>
-                                Explore Further 
                             </div>
                         </div>
                     </div>
@@ -215,10 +278,13 @@
                                 <h5 class="card-title text-warning">Hair Dying</h5>
                                 <p class="card-text">Plot 120, Kubwa Express way</p>
                                 <hr>
-                                <a href="#" class="btn btn-outline-light rounded-pill">
-                                    <i class="fas fa-arrow-right ms-2" style="color: rgba(203, 161, 53, 1);"></i>
-                                </a>
-                                Explore Further 
+                                <a href="#" class="text-decoration-none text-white">
+                                    <button class="btn btn-sm btn-outline-light rounded-pill">
+                                        <i class="fas fa-arrow-right fa-sm ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+
+                                    </button>
+                                    Explore Further
+                                </a> 
                             </div>
                         </div>
                     </div>
@@ -231,10 +297,13 @@
                                 <h5 class="card-title text-warning">Make Up</h5>
                                 <p class="card-text">Plot 120, Kubwa Express way</p>
                                 <hr>
-                                <a href="#" class="btn btn-outline-light rounded-pill">
-                                    <i class="fas fa-arrow-right ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+                                <a href="#" class="text-decoration-none text-white">
+                                    <button class="btn btn-sm btn-outline-light rounded-pill">
+                                        <i class="fas fa-arrow-right fa-sm ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+
+                                    </button>
+                                    Explore Further
                                 </a>
-                                Explore Further 
                             </div>
                         </div>
                     </div>
@@ -247,10 +316,13 @@
                                 <h5 class="card-title text-warning">Knotless Braids</h5>
                                 <p class="card-text">Plot 120, Kubwa Express way</p>
                                 <hr>
-                                <a href="#" class="btn btn-outline-light rounded-pill">
-                                    <i class="fas fa-arrow-right ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+                                <a href="#" class="text-decoration-none text-white">
+                                    <button class="btn btn-sm btn-outline-light rounded-pill">
+                                        <i class="fas fa-arrow-right fa-sm ms-2" style="color: rgba(203, 161, 53, 1);"></i>
+
+                                    </button>
+                                    Explore Further
                                 </a>
-                                Explore Further 
                             </div>
                         </div>
                     </div>
@@ -258,27 +330,38 @@
             </div>
 
             <!-- Bottom Bar -->
-            <div class="d-flex justify-content-between align-items-center x">
-                <div class="d-flex align-items-center bg-dark-subtle mt-4 p-3 rounded ">
-                    <i class="far fa-calendar me-2"></i>
-                    <span>Delivering tomorrow's hair and beauty care .View Stylist's timetable</span>
+            <!-- <div class="d-flex justify-content-between align-items-center x">
+                <div class="d-flex align-items-center  mt-4 p-3 rounded ">
+                    <span class="btn btn-outline-light bg-transparent"> <i class="far fa-calendar me-2"></i> Delivering tomorrow's hair and beauty care .View Stylist's timetable</span>
                 </div>
                 <div class="d-flex align-items-center">
                     <h2 class="mb-0 me-3">4.8</h2>
                     <button class="btn btn-warning">View all Services</button>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="container p-5 ">
+                    <div class="d-flex justify-content-center">
+                        <div class="p-2" >
+                          <span class="btn btn-outline-light bg-transparent"> <i class="far fa-calendar me-2"></i> Delivering tomorrow's hair and beauty care .View Stylist's timetable</span>
+                        </div>
+                          <h2 class="p-2">4.8</h2>
+                          <button class="btn btn-warning text-white m-2">View all Services</button>
+                    </div>
+               
+              </div>
+
             
         </div>
     </section>
     <!-- Section 4 end -->
 
     <!-- Section 5 start -->
-    <section class="guidelines-section py-5" style="background-color: #2A2E32;">
+    <section class="guidelines-section py-5" style="background-color: rgba(42, 52, 57, 1)">
         <div class="container">
             <!-- Header -->
             <div class="text-center mb-4">
-                <h6 class="text-uppercase" style="color: #C4A962;">TAILORED GUIDELINES</h6>
+                <h6 class="text-uppercase gold-text playball-regular" style="color: #C4A962; ">TAILORED GUIDELINES</h6>
                 <h1 class="text-white display-4 mb-3">Important Information</h1>
                 <p class="text-white-50 mb-5">
                     Here, you'll find everything you need to know for a smooth and enjoyable visit. Please take a moment to review our policies<br>
@@ -297,8 +380,8 @@
                                 <i class="fas fa-ban text-warning"></i>
                             </div>
                             <div>
-                                <h4 class="text-warning">Cancellation & Rescheduling</h4>
-                                <p class="text-white-50">
+                                <h4 class="text-warning gold-text playball-regular">Cancellation & Rescheduling</h4>
+                                <p class="text-white">
                                     We kindly request a minimum of 24 hours' notice for cancellations or rescheduling. Last-minute cancellations or no-shows may result in a fee.
                                 </p>
                             </div>
@@ -310,8 +393,8 @@
                                 <i class="fas fa-handshake text-warning"></i>
                             </div>
                             <div>
-                                <h4 class="text-warning">Service Guarantee</h4>
-                                <p class="text-white-50">
+                                <h4 class="text-warning gold-text playball-regular">Service Guarantee</h4>
+                                <p class="text-white">
                                     We aim to exceed your expectations with every service. If there are any issues, please communicate them during or immediately after your visit.
                                 </p>
                             </div>
@@ -323,8 +406,8 @@
                                 <i class="fas fa-sync text-warning"></i>
                             </div>
                             <div>
-                                <h4 class="text-warning">Refund Policy</h4>
-                                <p class="text-white-50">
+                                <h4 class="text-warning gold-text playball-regular">Refund Policy</h4>
+                                <p class="text-white">
                                     Services are non-refundable. If you're not satisfied, contact us within 7 days for a complimentary adjustment.
                                 </p>
                             </div>
@@ -336,8 +419,8 @@
                                 <i class="fas fa-users text-warning"></i>
                             </div>
                             <div>
-                                <h4 class="text-warning">Children & Guest Policy</h4>
-                                <p class="text-white-50">
+                                <h4 class="text-warning gold-text playball-regular">Children & Guest Policy</h4>
+                                <p class="text-white">
                                     To maintain a relaxing atmosphere, we ask that only clients with appointments enter the salon.
                                 </p>
                             </div>
@@ -351,17 +434,22 @@
                 </div>
             </div>
         </div>
+        <div class="container text-white">
+            <hr>
+        </div>    
     </section>
     
     <!-- Section 5 end -->
     
+    
     <!-- Section 6 start -->
-    <div class="container-fluid p-5" id="section-two" style="background-color: rgba(36, 40, 42, 1);">
         <section class="policy-section py-5">
+            
             <div class="container">
-                <h2 class="text-center mb-4" style="color: #DAA520;">OUR POLICY</h2>
+                <h5 class="text-center gold-text playball-regular" style="color: #DAA520;">OUR POLICY</h5>
+                <h1 class="text-center text-white" style="font-size: 45px;     font-family: 'Playfair Display';">Policies</h1>
                 
-                <p class="text-center text-muted mb-5">
+                <p class="text-center text-white mb-5">
                     We prioritize your satisfaction and well-being with transparent policies designed for a seamless experience. Please review<br>
                     our guidelines to ensure exceptional service tailored to your needs.
                 </p>
@@ -370,8 +458,10 @@
                     <!-- Schedule Card -->
                     <div class="col-md-3">
                         <div class="policy-card h-100 p-4 rounded-3 text-center">
-                            <i class="fas fa-calendar-alt mb-3" style="color: #DAA520; font-size: 24px;"></i>
-                            <h3 class="policy-title" style="color: #DAA520;">Schedule</h3>
+                            <h3 class="policy-title gold-text playball-regular" style="color: #DAA520;"> 
+                                <i class="fas fa-calendar-alt mb-3" style="color: #DAA520; font-size: 24px;"></i> 
+                                    Schedule
+                            </h3>
                             <p class="text-white">Secure your appointment with advance bookings; deposits may be also be required.</p>
                         </div>
                     </div>
@@ -379,8 +469,9 @@
                     <!-- Travelling Card -->
                     <div class="col-md-3">
                         <div class="policy-card h-100 p-4 rounded-3 text-center">
-                            <i class="fas fa-map-marker-alt mb-3" style="color: #DAA520; font-size: 24px;"></i>
-                            <h3 class="policy-title" style="color: #DAA520;">Travelling</h3>
+                            <h3 class="policy-title gold-text playball-regular" style="color: #DAA520;">
+                                <i class="fas fa-map-marker-alt mb-3" style="color: #DAA520; font-size: 24px;"></i>
+                                Travelling</h3>
                             <p class="text-white">For mobile or on-location services, travel fees may apply depending on the distance.</p>
                         </div>
                     </div>
@@ -388,8 +479,9 @@
                     <!-- Late Arrival Card -->
                     <div class="col-md-3">
                         <div class="policy-card h-100 p-4 rounded-3 text-center">
-                            <i class="far fa-clock mb-3" style="color: #DAA520; font-size: 24px;"></i>
-                            <h3 class="policy-title" style="color: #DAA520;">Late Arrival</h3>
+                            <h3 class="policy-title gold-text playball-regular" style="color: #DAA520;">
+                                <i class="far fa-clock mb-3" style="color: #DAA520; font-size: 24px;"></i>
+                                Late Arrival</h3>
                             <p class="text-white">Clients over 15 minutes late may be rescheduled or receive a shortened service.</p>
                         </div>
                     </div>
@@ -397,8 +489,10 @@
                     <!-- Payment Card -->
                     <div class="col-md-3">
                         <div class="policy-card h-100 p-4 rounded-3 text-center">
-                            <i class="far fa-credit-card mb-3" style="color: #DAA520; font-size: 24px;"></i>
-                            <h3 class="policy-title" style="color: #DAA520;">Payment</h3>
+                            <h3 class="policy-title" style="color: #DAA520;">
+                                <i class="far fa-credit-card mb-3" style="color: #DAA520; font-size: 24px;"></i>
+
+                                Payment</h3>
                             <p class="text-white">All Services require $55 non-refundable deposit fee. No deposit, no appointment</p>
                         </div>
                     </div>
@@ -409,14 +503,18 @@
         
     </div>
     <!-- Section 6 end -->
-
+    
     <!-- Section 7 start -->
-    <div class="container-fluid p-5" id="section-two" style="background-color: rgba(36, 40, 42, 1);">
-        <section class="founders-section py-5 bg-dark text-white">
+        <section class="founders-section py-5 text-white">
+            <div class="container">
+                <hr>
+            </div>
+            
+            <br>
             <div class="container text-center">
-                <h6 class="text-warning mb-3">OUR FOUNDERS</h6>
+                <h6 class="text-warning mb-3 gold-text playball-regular">OUR FOUNDERS</h6>
                 <h1 class="display-4 mb-4">Meet Our Visionary Stylists</h1>
-                <p class="lead mb-5 mx-auto" style="max-width: 800px;">
+                <p class="lead text-white mb-5 mx-auto" style="max-width: 800px;">
                     Passionate about transforming looks and boosting confidence. We lead our salon with creativity and expertise. With years of experience and a dedication to excellence, We ensure every client leaves feeling their absolute best.
                 </p>
         
@@ -426,8 +524,8 @@
                         <div class="founder-card rounded overflow-hidden">
                             <img src="images/founder-1.jpeg" class="img-fluid rounded" alt="Sandra Houston">
                             <div class="mt-3">
-                                <h3 class="text-warning">Sandra Houston</h3>
-                                <p class="text-white-50">Director</p>
+                                <h3 class="text-warning" style="font-family: 'Playfair Display';">Sandra Houston</h3>
+                                <p class="text-white">Director</p>
                             </div>
                         </div>
                     </div>
@@ -437,8 +535,8 @@
                         <div class="founder-card rounded overflow-hidden">
                             <img src="images/founder-2.jpeg" class="img-fluid rounded" alt="Erica Daniella">
                             <div class="mt-3">
-                                <h3 class="text-warning">Erica Daniella</h3>
-                                <p class="text-white-50">Co-Founder</p>
+                                <h3 class="text-warning" style="font-family: 'Playfair Display';">Erica Daniella</h3>
+                                <p class="text-white">Co-Founder</p>
                             </div>
                         </div>
                     </div>
@@ -450,98 +548,133 @@
     </div>
     <!-- Section 7 end -->
 
+
     <!-- Section 8 start -->
-    <div class="container-fluid p-5" id="section-two" style="background-color: rgba(36, 40, 42, 1);">
-    
-    <div class="container">
-        <header class="beauty-header">
-            <h5>BEAUTY INSIGHTS</h5>
-            <h1>Salon Stories</h1>
-            <p>Explore expert beauty tips, the latest trends, and inspiring transformations.</p>
-        </header>
+    <div class="container-fluid p-5" id="section-two-beauty" style="background-color: rgba(36, 40, 42, 1);">
 
-        <div class="row">
-            <!-- Blog Card 1 -->
-            <div class="col-md-4">
-                <div class="blog-card">
-                    <img src="images/grid-image-3.png" class="card-img-top" alt="Traditional Headwrap">
-                    <div class="card-body px-0">
-                        <div class="date-badge">
-                            <span>20</span>
-                            <span>Dec</span>
-                        </div>
-                        <h3 class="blog-title">Its Christmas Special Days ahead</h3>
-                        <p>Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
-                        <div class="meta-info">
-                            <span><i class="fas fa-user"></i> Admin</span>
-                            <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
-                            <div class="mt-2">
-                                <span><i class="fas fa-cut"></i> Hair, Nails</span>
+        <div class="container">
+            <header class="beauty-header">
+                <h5 class="gold-text playball-regular">BEAUTY INSIGHTS</h5>
+                <h1 class="text-white" style="font-family: 'Playfair Display';">Salon Stories</h1>
+                <p>Explore expert beauty tips, the latest trends, and inspiring transformations.</p>
+            </header>
+
+            <div class="row">
+                <!-- Blog Card 1 -->
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="images/grid-image-3.png" class="card-img-top" alt="Traditional Headwrap">
+                        <div class="card-body px-0 text-right">
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <div class="date-badge" style="background-color: rgba(255, 255, 255, 0.29);">
+                                        <span>20</span>
+                                        <br>
+                                        <span>Dec</span>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h3 class="blog-title" style="font-size: 28px; font-family: 'Playfair Display';">Its Christmas Special Days ahead</h3>
+                                    <p class="text-white">Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
+                                    <div class="container">
+                                        <hr>
+                                    </div>
+                                    <div class="meta-info">
+                                        <span><i class="fas fa-user"></i> Admin</span>
+                                        <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
+                                        <div class="mt-2">
+                                            <span><i class="fas fa-cut"></i> Hair, Nails</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Blog Card 2 -->
-            <div class="col-md-4">
-                <div class="blog-card">
-                    <img src="images/services-img-1.jpeg" class="card-img-top" alt="Blue Gradient Nails">
-                    <div class="card-body px-0">
-                        <div class="date-badge">
-                            <span>20</span>
-                            <span>Dec</span>
-                        </div>
-                        <h3 class="blog-title">In the Dawn of a New Day</h3>
-                        <p>Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
-                        <div class="meta-info">
-                            <span><i class="fas fa-user"></i> Admin</span>
-                            <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
-                            <div class="mt-2">
-                                <span><i class="fas fa-cut"></i> Hair, Nails</span>
+                <!-- Blog Card 2 -->
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="images/services-img-1.jpeg" class="card-img-top" alt="Blue Gradient Nails">
+                        <div class="card-body px-0 text-right">
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <div class="date-badge" style="background-color: rgba(255, 255, 255, 0.29);">
+                                        <span>20</span>
+                                        <br>
+                                        <span>Dec</span>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h3 class="blog-title" style="font-size: 28px; font-family: 'Playfair Display';"> In the Dawn of a New Day </h3>
+                                    <p class="text-white">Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
+                                    <div class="container">
+                                        <hr>
+                                    </div>
+                                    <div class="meta-info">
+                                        <span><i class="fas fa-user"></i> Admin</span>
+                                        <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
+                                        <div class="mt-2">
+                                            <span><i class="fas fa-cut"></i> Hair, Nails</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
+                       
                     </div>
                 </div>
-            </div>
 
-            <!-- Blog Card 3 -->
-            <div class="col-md-4">
-                <div class="blog-card">
-                    <img src="images/salon-1.jpeg" class="card-img-top" alt="Braided Hairstyle">
-                    <div class="card-body px-0">
-                        <div class="date-badge">
-                            <span>20</span>
-                            <span>Dec</span>
-                        </div>
-                        <h3 class="blog-title">Winter Dreams - Capturing the Snow</h3>
-                        <p>Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
-                        <div class="meta-info">
-                            <span><i class="fas fa-user"></i> Admin</span>
-                            <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
-                            <div class="mt-2">
-                                <span><i class="fas fa-cut"></i> Hair, Nails</span>
+                <!-- Blog Card 3 -->
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="images/salon-1.jpeg" class="card-img-top" alt="Braided Hairstyle">
+                        <div class="card-body px-0 text-right">
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <div class="date-badge" style="background-color: rgba(255, 255, 255, 0.29);">
+                                        <span>20</span>
+                                        <br>
+                                        <span>Dec</span>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h3 class="blog-title" style="font-size: 28px; font-family: 'Playfair Display';">Winter Dreams - Capturing the Snow</h3>
+                                    <p class="text-white">Stylicle has been the industry's standard dummy text ever since a very long time ...</p>
+                                    <div class="container">
+                                        <hr>
+                                    </div>
+                                    <div class="meta-info">
+                                        <span><i class="fas fa-user"></i> Admin</span>
+                                        <span><a href="#" class="tag">Technology</a>, <a href="#" class="tag">Trend</a></span>
+                                        <div class="mt-2">
+                                            <span><i class="fas fa-cut"></i> Hair, Nails</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    </div>
     <!-- Section 8 end -->
     
     <!-- Footer start -->
-    <div class="container-fluid p-5" id="section-two" style="background-color: rgba(36, 40, 42, 1);">
-        <footer class="bg-dark text-white py-5">
+        <footer class="text-white py-5">
             <div class="container">
                 <!-- Logo and Social Media Row -->
                 <div class="row mb-4">
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
-                            <img src="path-to-logo.png" alt="ServiceMarket Logo" height="40">
+                            <img src="images/Vector-logo.png" alt="ServiceMarket Logo" height="40">
                             <h3 class="ms-2 mb-0 text-warning">SERVICEMARKET</h3>
                         </div>
                     </div>
@@ -554,12 +687,17 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="container">
+                    <hr>
+                    <br>
+                </div>
         
                 <!-- Main Footer Content -->
                 <div class="row">
                     <!-- Explore Section -->
                     <div class="col-md-3">
-                        <h4 class="mb-4">Explore</h4>
+                        <h4 class="mb-4" style="font-family: 'Playfair Display';">Explore</h4>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
                             <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
@@ -571,7 +709,7 @@
         
                     <!-- Utility Pages Section -->
                     <div class="col-md-3">
-                        <h4 class="mb-4">Utility Pages</h4>
+                        <h4 class="mb-4" style="font-family: 'Playfair Display';">Utility Pages</h4>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
                             <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms of Use</a></li>
@@ -580,17 +718,17 @@
         
                     <!-- Keep in Touch Section -->
                     <div class="col-md-6">
-                        <h4 class="mb-4">Keep in Touch</h4>
+                        <h4 class="mb-4" style="font-family: 'Playfair Display';">Keep in Touch</h4>
                         <div class="contact-info">
-                            <p class="mb-2">
+                            <p class="mb-2 text-white">
                                 <strong>Address : </strong>
                                 Plot 120 Kubwa Express way
                             </p>
-                            <p class="mb-2">
+                            <p class="mb-2 text-white">
                                 <strong>Mail : </strong>
                                 <a href="mailto:support@servicemarket.com" class="text-white text-decoration-none">support@servicemarket.com</a>
                             </p>
-                            <p class="mb-2">
+                            <p class="mb-2 text-white">
                                 <strong>Phone : </strong>
                                 (+22) 123 - 4567 - 900
                             </p>
@@ -598,19 +736,20 @@
                     </div>
                 </div>
         
-                <!-- Copyright -->
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <p class="mb-0">© 2023, ServiceMarket.dk | All rights reserved.</p>
-                    </div>
-                </div>
+                
             </div>
         </footer>
-        
-        
-    </div>
     <!-- Footer end -->
 
+    <!-- Copyright -->
+    <section>
+        <div class="p-3 text-white" style="background-color: rgba(42, 48, 52, 1);">
+            <div class="col-12 text-center">
+                <p class="mb-0">© 2023, ServiceMarket.dk | All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+    
 
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>

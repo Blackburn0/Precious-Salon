@@ -60,7 +60,29 @@
 
 #section-one-right {
     background-image: url('/images/Rectangle\ 3.png');
+
+    /* background-image: url('/images/bg.jpeg'); */
+    background-color: #2A3038;
+    /* background-image: url('/images/bg.jpeg'); */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
+
+
+
+
+#section-two-beauty {
+    background-image: url('/images/bg.jpeg');
+    background-color: #2A3038;
+    /* background-image: url('/images/bg.jpeg'); */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
 
 #section-two p, a {
     color: rgba(255, 255, 255, 1);
@@ -128,8 +150,17 @@
 
 #section-four {
     background-image: url('/images/bg-section-4.jpeg');
-    opacity: 92%;
-    background: transparent;
+    /* opacity: 92%;
+    background: transparent; */
+
+
+    /* background-image: url('/images/bg.jpeg'); */
+    background-color: #2A3038;
+    /* background-image: url('/images/bg.jpeg'); */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 
 }
 #section-four-background{
@@ -176,6 +207,10 @@ h1.display-4 {
     background-color: #2A2A2A;
     transition: transform 0.3s ease;
 }
+.policy-section {
+    background-color: rgba(42, 52, 57, 1);
+}
+
 
 .policy-card:hover {
     transform: translateY(-5px);
@@ -195,7 +230,7 @@ h1.display-4 {
 
 /* section 7 */
 .founders-section {
-    background-color: #2A2E32;
+    background-color: rgba(42, 52, 57, 1);
     padding: 80px 0;
 }
 
@@ -243,7 +278,8 @@ body {
 
 .beauty-header h5 {
     color: #FFD700;
-    font-family: serif;
+    /* font-family: serif; */
+    /* font-family: gold-text playball-regular; */
     letter-spacing: 2px;
 }
 
@@ -299,7 +335,8 @@ body {
 
 /* footer */
 footer {
-    background-color: #2d3339 !important;
+    /* background-color: #2d3339 !important; */
+    background-color: rgba(42, 52, 57, 1);
 }
 
 .btn-outline-warning {
@@ -560,10 +597,6 @@ navbar {
 
 
 
-
-
-
-
 #service-sec-one{
     padding-bottom: 191px;
     padding-top: 118px;
@@ -576,3 +609,351 @@ navbar {
 #service-sec-one-btn{
     color: #C4A962;
 }
+
+
+
+/* Custom CSS */
+.service-detail {
+    background-color: #fff;
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-title {
+    color: #D4AF37;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.booking-title {
+    color: #D4AF37;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.instruction-item {
+    position: relative;
+}
+
+.icon-wrapper {
+    flex-shrink: 0;
+    padding-top: 4px;
+}
+
+.text-gold {
+    color: #D4AF37;
+    font-size: 1.5rem;
+}
+
+.instruction-text {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .service-title {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    
+    .booking-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+/* Custom CSS */
+.booking-section {
+    background-color: #2A3038;
+    background-image: url('path-to-background-image.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-gold {
+    color: #D4AF37;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.booking-form-wrapper {
+    max-width: 900px;
+}
+
+.booking-form {
+    background-color: #1E2329;
+    border-radius: 15px;
+}
+
+.custom-input {
+    background-color: transparent !important;
+    border: 1px solid #D4AF37 !important;
+    border-radius: 5px;
+    color: white !important;
+    padding: 12px 15px;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    border-color: #D4AF37 !important;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-gold {
+    border: 1px solid #D4AF37;
+    color: #D4AF37;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #c49f2f;
+    color: white;
+}
+
+.custom-file-upload {
+    border: 1px solid #D4AF37;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+/* Form Select Styling */
+select.custom-input {
+    background-image: url("/images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .booking-form {
+        padding: 1.5rem !important;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+/* Custom CSS */
+.contact-section {
+    background-color: #fff;
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    padding-right: 2rem;
+}
+
+.gold-square {
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    width: 80%;
+    height: 90%;
+    background-color: #D4AF37;
+    z-index: 0;
+}
+
+.main-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: #D4AF37;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.description {
+    color: #666;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.contact-item .icon-wrapper {
+    flex-shrink: 0;
+    padding-top: 4px;
+}
+
+.text-gold {
+    color: #D4AF37;
+}
+
+.contact-info h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.contact-info p {
+    color: #666;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .image-wrapper {
+        margin-bottom: 3rem;
+        padding-right: 0;
+    }
+    
+    .gold-square {
+        width: 100%;
+        right: -1rem;
+    }
+    
+    .title {
+        font-size: 2.3rem;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+
+
+/* Custom CSS */
+.contact-form-section {
+    background-color: #2A3038;
+    background-image: url('/images/bg.jpeg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.text-gold {
+    color: #D4AF37;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-wrapper {
+    max-width: 800px;
+}
+
+.contact-form {
+    background-color: #1E2329;
+    border-radius: 15px;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.custom-input {
+    background-color: #2A3038 !important;
+    border: 1px solid #D4AF37 !important;
+    border-radius: 5px;
+    color: white !important;
+    padding: 12px 15px;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    border-color: #D4AF37 !important;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.country-select {
+    background-color: #2A3038;
+    border: 1px solid #D4AF37;
+    color: #D4AF37;
+}
+
+.message-input-wrapper {
+    position: relative;
+}
+
+.message-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.1rem;
+}
+
+textarea.custom-input {
+    padding-left: 45px;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #c49f2f;
+    color: white;
+}
+
+/* Form Label Styling */
+.form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 1.5rem !important;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+
