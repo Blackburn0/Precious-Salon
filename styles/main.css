@@ -599,10 +599,17 @@ navbar {
 
 #service-sec-one{
     padding-bottom: 191px;
-    padding-top: 118px;
+    padding-top: 18px;
     padding-left: 396px;
     padding-right: 396px;
     background-image: url('/images/service-sec-1.jpeg');
+
+
+    background-color: #2A3038;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 
 }
 
@@ -955,5 +962,424 @@ textarea.custom-input {
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
+
+
+/* Custom CSS */
+.values-section {
+    background-color: #2A3439;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-gold {
+    color: #D4AF37;
+}
+
+.display-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.values-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.value-item {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.value-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    right: 0;
+    height: 1px;
+    background: rgba(212, 175, 55, 0.1);
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(212, 175, 55, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box i {
+    font-size: 2rem;
+    color: #D4AF37;
+}
+
+.value-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .value-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .value-icon {
+        margin: 0 auto 1.5rem;
+    }
+
+    .value-item:not(:last-child)::after {
+        left: 0;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+
+/* Custom CSS */
+.about-section {
+    /* min-height: 100vh;
+    position: relative;
+    overflow: hidden; */
+
+    background-image: url('/images/bg.jpeg');
+
+
+
+    background-color: #2A3038;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.about-image-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.gold-square {
+    position: absolute;
+    left: -2rem;
+    top: -2rem;
+    width: 100%;
+    height: 100%;
+    background-color: #D4AF37;
+    z-index: -1;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+    background-color: #D4AF37;
+    padding: 4rem 3rem;
+    margin-left: -100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.about-content .display-3 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.about-description {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .about-content {
+        margin-left: 0;
+        margin-top: -50px;
+        padding: 2rem;
+    }
+
+    .about-content .display-3 {
+        font-size: 2rem;
+    }
+
+    .gold-square {
+        left: 0;
+        top: 0;
+    }
+}
+
+/* Background Hair Effect */
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('path-to-hair-texture.jpg');
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+
+/* Custom CSS */
+.journey-section {
+    background-color: #2A3439;
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+.text-gold {
+    color: #D4AF37;
+}
+
+h6.text-gold {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.display-3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.text-light-emphasis {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+}
+
+.methodology-item {
+    transition: all 0.3s ease;
+}
+
+.methodology-item:hover {
+    transform: translateX(10px);
+}
+
+.icon-wrapper i {
+    font-size: 1.5rem;
+}
+
+.item-content h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.video-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #D4AF37;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.play-button i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.play-button:hover {
+    background-color: #fff;
+}
+
+.play-button:hover i {
+    color: #D4AF37;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    
+    .video-wrapper {
+        margin-top: 3rem;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+
+/* Custom CSS */
+.testimonials-section {
+    background-color: #000;
+    
+    background-blend-mode: overlay;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+
+
+
+    background-image: url('/images/bg.jpeg');
+    /* opacity: 92%;
+    background: transparent; */
+
+
+    /* background-image: url('/images/bg.jpeg'); */
+    background-color: #2A3038;
+    /* background-image: url('/images/bg.jpeg'); */
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.testimonial-card {
+    background-color: #2A3038;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.testimonial-card::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: #D4AF37;
+    z-index: -1;
+    border-radius: 0 0 15px 15px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: -60px auto 20px;
+    overflow: hidden;
+    border: 4px solid #D4AF37;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-card h4 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+
+.designation {
+    color: #D4AF37;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.quote-icon {
+    color: #D4AF37;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.testimonial-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.main-card {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.small-card {
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+/* Carousel Controls */
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #D4AF37 !important;
+    opacity: 0.5;
+}
+
+.carousel-indicators button.active {
+    opacity: 1;
+}
+
+.gold-arrow {
+    filter: invert(70%) sepia(50%) saturate(500%) hue-rotate(5deg) brightness(90%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .main-card, .small-card {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 
